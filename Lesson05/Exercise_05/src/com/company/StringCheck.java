@@ -2,7 +2,7 @@ package com.company;
 
 public class StringCheck
 {
-    public static void countWord(String str, char w)
+    public static void countChar(String str, char w)
     {
         int count=0;
         String countStr="";
