@@ -9,5 +9,5 @@ public enum Category
 
     Category(String category) {value = category;}
 
-    public String getCategory() {return value;}
+    public String returnCategory() {return value;}
 }

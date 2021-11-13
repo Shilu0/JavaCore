@@ -87,6 +87,6 @@ public class Products
     @Override
     public String toString()
     {
-        return "Id: "+id+" | Tên SP: "+name+" | Mô tả SP: "+description+" | Giá: "+price+" | SL trong kho: "+quantity+" | SL đã bán: "+soldQuantity+" | Hãng SX: "+manufacturer+" | Danh mục SP: "+getCategory();
+        return "Id: "+id+" | Tên SP: "+name+" | Mô tả SP: "+description+" | Giá: "+price+" | SL trong kho: "+quantity+" | SL đã bán: "+soldQuantity+" | Hãng SX: "+manufacturer+" | Danh mục SP: "+ getCategory().returnCategory();
     }
 }
